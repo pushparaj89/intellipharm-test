@@ -1,0 +1,26 @@
+
+# dependencies
+intellipharm-frontend/node_modules
+intellipharm-frontend/package-lock.json
+
+intellipharm-frontend/.npmrc
+intellipharm-frontend/.idea
+
+.npmrc
+.idea
+
+#
+# Suggested Symfony .gitignore
+#
+# Cache, session files and logs (Symfony3)
+intellipharm/var/cache/*
+intellipharm/var/logs/*
+intellipharm/var/export/*
+intellipharm/php/var/logs/*
+intellipharm/web/php/var/logs/*
+intellipharm/web/var/export/*
+intellipharm//var/sessions/*
+intellipharm/!var/cache/.gitkeep
+intellipharm/!var/logs/.gitkeep
+intellipharm/!var/export/.gitkeep
+intellipharm/!var/sessions/.gitkeep

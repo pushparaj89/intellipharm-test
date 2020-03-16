@@ -1,0 +1,43 @@
+AppBundle\Entity\Members:
+    type: entity
+    table: members
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+                default: '0'
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        firstname:
+            type: string
+            nullable: true
+            length: 50
+            options:
+                fixed: false
+        surname:
+            type: string
+            nullable: true
+            length: 50
+            options:
+                fixed: false
+        email:
+            type: string
+            nullable: true
+            length: 50
+            options:
+                fixed: false
+        gender:
+            type: string
+            nullable: true
+            length: 50
+            options:
+                fixed: false
+        joinedDate:
+            type: date
+            nullable: true
+            column: joined_date
+    lifecycleCallbacks: {  }

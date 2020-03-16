@@ -1,0 +1,6 @@
+services:
+    # Models
+    app.members_model:
+        class: AppBundle\Model\MembersModel
+        public: true
+        arguments: ["@doctrine.orm.entity_manager"]

@@ -18,6 +18,7 @@
        sudo chmod 777 -R var/*
        
 2. Start / stop the project
+       
        cd .. (go back to "intellipharm-test")
        docker-compose up --build -d
        

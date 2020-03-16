@@ -22,9 +22,9 @@
        cd .. (go back to "intellipharm-test")
        docker-compose up --build -d
        
-To Stop the Docker
+To Stop the Docker - Dont run this command while running the project. Run if you want to kill the container
 
-        docker-compose down
+        docker-compose down // Dont run this command while running the project. Run if you want to kill the container
 
 3. Prepare database - open new terminal - "cd intellipharm-test/"
 

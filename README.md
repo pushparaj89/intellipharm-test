@@ -37,8 +37,9 @@ Change the mysql host inside "intellipharm/app/config/parameters.yml" by finding
         docker-compose exec web ping mysql
         
 4. Open file from #"intellipharm/app/config/parameters.yml" - change database setting
+//this database host ip you can get from step 3 command
 
-        database_host: 172.17.0.2 //this ip you can get from step 3 command
+        database_host: 172.17.0.2 
         database_port: 3306
         database_driver: pdo_mysql
         database_name: test

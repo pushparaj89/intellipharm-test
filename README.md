@@ -19,10 +19,11 @@
        
 2. Start / stop the project
        cd .. (go back to "intellipharm-test")
-       docker-compose up --build
+       docker-compose up --build -d
        
 To Stop the Docker
-       docker-compose down
+
+        docker-compose down
 
 3. Prepare database - open new terminal - "cd intellipharm-test/"
 

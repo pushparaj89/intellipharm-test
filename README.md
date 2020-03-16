@@ -2,9 +2,9 @@
 
 ## Development environment setup
 
-Pre Set up 
+###Pre Set up 
 
-####You must stop your Mysql and Apache running locally to run with docker - i have used local ports to run docker nginx and mysql
+###You must stop your Mysql and Apache running locally to run with docker - i have used local ports to run docker nginx and mysql
 
 
 1. Clone Test_Intellipharm repository
